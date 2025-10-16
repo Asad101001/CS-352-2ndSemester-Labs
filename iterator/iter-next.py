@@ -4,3 +4,7 @@ it = iter(data)
 print(next(it))
 print(next(it))
 
+
+#prints 
+#1
+#2
