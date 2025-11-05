@@ -1,5 +1,5 @@
 from point import Point
-from regular_python import RegularPolygon
+from regular_polygon import RegularPolygon
 import math
 
 
