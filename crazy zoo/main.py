@@ -12,6 +12,14 @@ def random_animal_show(animals):
 if __name__ == "__main__":
     animals = [Dog(), Cat(), Parrot(), Animal()]
     random_animal_show(animals)
+    
+    
+# What would happen if  'pet' is typecasted as Animal() , what will be the behaviour?    
+  
+    # pet: Animal = Dog()
+    # pet.speak()
+
+#   Woof!    
 
 
 # Welcome to the Dynamic Dispatch Zoo!
