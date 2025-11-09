@@ -79,3 +79,13 @@ def even(nums):
 
 result = even(square(read_data()))
 print("Pipeline:", list(result))
+
+# Iterator: [1, 2, 3, 4, 5]
+# Generator: [1, 2, 3, 4, 5]
+# List: 8,448,728 bytes
+# Generator: 200 bytes
+# Iterator 1st: [1, 2, 3]
+# Iterator 2nd: [1, 2, 3]
+# Generator 1st: [1, 2, 3]
+# Generator 2nd: []
+# Pipeline: [0, 4, 16, 36, 64]
